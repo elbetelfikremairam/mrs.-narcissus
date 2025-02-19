@@ -1,0 +1,81 @@
+*{
+ margin: 0;
+padding:0;
+box-sizing:border-box;}
+
+body{
+    background-image: linear-gradient(
+        65deg,
+        hsl(28deg 100% 7%) 0%,
+        hsl(29deg 95% 8%) 8%,
+        hsl(31deg 92% 9%) 17%,
+        hsl(34deg 90% 10%) 25%,
+        hsl(36deg 89% 11%) 33%,
+        hsl(37deg 68% 14%) 40%,
+        hsl(38deg 54% 17%) 48%,
+        hsl(40deg 45% 20%) 56%,
+        hsl(42deg 39% 23%) 63%,
+        hsl(42deg 36% 25%) 71%,
+        hsl(39deg 40% 22%) 78%,
+        hsl(36deg 44% 19%) 86%,
+        hsl(34deg 49% 16%) 93%,
+        hsl(32deg 56% 13%) 100%)
+}
+
+.app{
+    background:white;
+    width:90%;
+    max-width: 600px ;
+    margin: 100px auto 0;
+    border-radius: 10px;
+    padding:30px;
+}
+
+.app h1{
+    font-size: 25px;
+    color: rgb(82, 47, 31);
+    font-weight: 600;
+    border-bottom: 1px solid #333;
+    padding-bottom: 30px;
+
+}
+.quiz{
+    padding:20px 0;
+}
+.quiz h2{
+    font-size: 18px;
+    color:black;
+    font-weight: 600;
+}
+
+.btn{
+    background: white;
+    color:rgb(17, 10, 0);
+    font-weight: 500;
+    width: 100%;
+    border:1px solid #222;
+    padding:10px;
+    margin:10px 0;
+    text-align: left;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.btn:hover{
+    background: #36210e;
+    color: antiquewhite;
+}
+
+#next-btn{
+    background:#36210e;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    width:150px;
+    border:0;
+    padding: 10px;
+    margin: 20px auto 0;
+    border-radius: 4px;
+    cursor: pointer;
+    display: none;
+
+}
